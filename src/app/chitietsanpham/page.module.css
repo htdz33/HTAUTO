@@ -1,0 +1,126 @@
+.container {
+    background: #111;
+    min-height: 100vh;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* BOX */
+  .detail {
+    width: 1300px;
+    background: #1c1c1c;
+    border-radius: 15px;
+    display: flex;
+    padding: 40px;
+    gap: 60px;
+    color: white;
+    align-items: flex-start; /* 🔥 ảnh ngang title */
+  }
+  
+  /* LEFT */
+  .left {
+    flex: 1.5;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .imageBox {
+    width: 100%;
+    max-width: 750px;
+  }
+  
+  .img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+    transition: 0.4s;
+  }
+  
+  .img:hover {
+    transform: scale(1.04);
+  }
+  
+  /* RIGHT */
+  .right {
+    flex: 1;
+  }
+  
+  /* TITLE */
+  .title {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  /* RATING */
+  .rating {
+    color: gold;
+    margin-bottom: 10px;
+  }
+  
+  /* PRICE */
+  .price {
+    font-size: 32px;
+    color: #ff3c3c;
+    font-weight: bold;
+  }
+  
+  .old {
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 10px;
+  }
+  
+  .percent {
+    background: red;
+    padding: 4px 8px;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+  
+  /* DESC */
+  .desc {
+    margin: 15px 0;
+    color: #ccc;
+    line-height: 1.6;
+  }
+  
+  /* SPECS */
+  .specs {
+    background: #2a2a2a;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* SALE */
+  .saleBox {
+    background: #2a1a1a;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* BUTTON */
+  .btn {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(45deg, red, orange);
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+  }
+  
+  /* BACK */
+  .back {
+    display: block;
+    margin-top: 15px;
+    color: #aaa;
+  }
